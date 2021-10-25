@@ -1,5 +1,11 @@
-function sum(m, n) {
-  return m + n;
+function ucFirst(str) {
+  if (str=="") { 
+  return str; 
+  }
+  else {
+  let strOne=str[0];
+  let str2=strOne.toLocaleUpperCase() + str.slice(1);
+  return str2 ; 
+  };    
 }
-sum(1,1)
-sum(2,5)
+ucFirst();
