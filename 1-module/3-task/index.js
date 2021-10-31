@@ -8,4 +8,3 @@ function ucFirst(str) {
   return str2 ; 
   };    
 }
-ucFirst();
