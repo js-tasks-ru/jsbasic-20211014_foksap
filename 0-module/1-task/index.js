@@ -1,5 +1,5 @@
-function sum(m, n) {
-  return m + n;
+function sum(a,b) {
+return a+b;
 }
-sum(1,1)
-sum(2,5)
+sum (1,2)
+sum (2,5)
